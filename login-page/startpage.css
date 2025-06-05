@@ -1,0 +1,138 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    justify-content:center;
+    align-items:center;
+
+}
+.navbar{
+    background-color:#F7F9FF;
+    height:50px;
+    width:100%;
+    display:flex;
+    gap:750px
+
+}
+.page{
+    background-color:#EEF2FF;
+    height:690px;
+    width:100%;
+    display:flex;3
+
+}
+.title{
+    text-decoration:bold;
+    
+    
+}
+.buttons{
+    display:flex;
+    align-items:right;
+    margin-top:15px;
+    gap:20px;
+
+}
+.btn{
+    gap:15px;
+    font-size:17px;
+}
+
+.image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5px;
+    margin-left:180px;
+}
+.photo{
+    height:30px;
+    width:30px;
+}
+.description{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:Center;
+    align-items: center;
+
+}
+.des-img{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+
+}
+.gradient-text{
+    font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  background: linear-gradient(90deg, #6366f1, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.subtitle{
+    color:rgb(180, 179, 179);
+    margin-left:-10px;
+
+}
+.clicks{
+    justify-content:left;
+    display:flex;
+    width:100%;
+    margin-top:20px;
+    margin-left:360px;
+    gap:20px;
+}
+
+.getstart{
+    background-color:#6366f1;
+    display:flex;
+    height:40px;
+    width:130px;
+    border-radius:5px;
+    color:white;
+    text-decoration:bold;
+    font-size:15px;
+    border-color:#6366f1;
+}
+.rocketimage{
+    height:15px;
+    width:15px;
+    margin:10px;
+    background-color:blue;
+
+    
+}
+.videoimg{
+    margin:10px;
+    height:20px;
+    width:20px;
+   
+
+}
+.demo{
+    height:40px;
+    display:flex;
+    width:130px;
+    border:10px;
+    border-color:#6366f1;
+    border-radius:5px;
+    background-color:red;
+    color:white;
+    font-size:15px;
+}
+.text{
+    margin-top:10px;
+}
+.sideimg{
+    justify-content:center;
+    align-items:center;
+}
+.btn:hover{
+    cursor:pointer;
+    color:blue;
+    text-decoration:underline;
+
+}
