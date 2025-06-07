@@ -1,0 +1,126 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+body{
+    background-color:rgb(209, 209, 255);
+    justify-content:Center;
+    align-items:center;
+    display:flex;
+    height:100vh;
+
+}
+.container{
+    height:600px;
+    width:700px;
+    background-color:rgb(235, 235, 235);
+
+}
+.contact{
+    text-align:Center;
+    margin-top:50px;
+}
+.details{
+    font-size:20px;
+}
+.name-section{
+    margin:20px;
+    display:flex;
+    
+
+
+
+}
+.first-name{
+    width:50%;
+    
+
+}
+.last-name{
+    margin-left:10px;
+}
+.full-name{
+    background-color:white;
+    border-radius:10px;
+    height:20px;
+    width:290px;
+    border-width: 1px;;
+      border: 1.5px solid #ccc;
+        padding: 10px 14px;
+          background-position: right 20px center;
+
+
+
+
+}
+.email-inp{
+    width:630px;
+    height:25px;
+    border-radius:10px;
+    border-width:1px;
+    border: 1.5px solid #ccc;
+    margin-left:20px;
+            padding: 10px 14px;
+
+    background-position: right 20px center;
+
+
+
+}
+
+.form-group {
+  width: 660px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  margin-top:10px;
+  margin-left:20px;
+}
+
+select {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  font-size: 16px;
+  background-size: 12px;
+  margin-top:10px;
+  margin-left:20px;
+}
+
+select:focus {
+  outline: none;
+  border-color: #3f51b5;
+  box-shadow: 0 0 0 2px rgba(63, 81, 181, 0.2);
+}
+.box{
+    height:110px;
+    width:655px;
+    margin-top:10px;
+    border-radius:8px;
+    border:1.5px solid #ccc;
+    background-position-y: 2px;
+    
+}
+.message{
+    margin-top:10px;
+    margin-left:20px;
+
+}
+.send{
+    background-color:rgb(43, 43, 255);
+    width:650px;
+    margin:20px;
+    text-align:center;
+    border-radius:8px;
+    color:white;
+    height:30px;
+    padding-top:6px;
+    font-size:15px;
+
+}
