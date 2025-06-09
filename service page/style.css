@@ -1,0 +1,95 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:rgb(212, 212, 255);
+
+}
+.tagline{
+    padding-top:10px;
+    justify-content:center;
+    align-items:center;
+    width:full;
+    text-align:Center;
+    background-color:rgb(212, 212, 255);
+
+}
+.title{
+    color:rgb(39, 39, 39);
+    font-size:xx-large;
+    
+}
+.subtitle{
+    color:gray;
+
+
+}
+.service{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+    gap:20px;
+}
+.card{
+    background-color:white;
+    width:350px;
+    height:280px;
+
+}
+.image{
+    border-radius:50%;
+    height:70px;
+    width:70px;
+    margin:10px
+}
+.text{
+    margin:10px;
+}
+.headline{
+    margin:15px;
+
+}
+.subline{
+    margin:15px;
+        color:gray;
+
+}
+.button{
+    margin-left:18px;
+    height:20px;
+    margin-top:10px;
+
+}
+.btn1{
+    background-color:rgb(73, 73, 255);
+    color:white;
+    height:40px;
+    width:120px;
+    border-radius:5px;
+    border-color:rgb(73, 73, 255);
+}
+.btn2{
+    background-color:rgb(226, 120, 49);
+    color:white;
+    height:40px;
+    width:120px;
+    border-radius:5px;
+    border-color:rgb(226, 120, 49);
+}
+.btn3{
+    background-color:rgb(124, 63, 255);
+    color:white;
+    height:40px;
+    width:120px;
+    border-radius:5px;
+    border-color:rgb(124, 63, 255);
+}
+.btn1:hover{
+   cursor:pointer;
+
+}
+@media only screen and (max-width:700px){
+    .service{
+        display:block;
+        margin-left:15px;
+    }
+}
