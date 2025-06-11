@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding:0px;
+     font-family: 'Segoe UI', sans-serif;
+
+
+}
+body{
+    background-color:rgb(219, 219, 219);
+}
+.text{
+    margin-top:50px;
+    text-align:Center;
+
+}
+.heading{
+    font-size:60px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #2f3e4f;
+    margin: 20px 0;
+}
+
+.subtitle{
+    font-size:24px;
+    margin:20px;
+    color: #888888;
+    font-weight: 400;
+
+
+}
+.button{
+    margin-top:40px;
+    gap:30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:Center;
+    align-items:center;
+    transition: transform 0,3s ease-in-out;
+    
+
+
+
+
+}
+.btn{
+    width:fit-content;
+    padding:6px 20px;
+    border-radius:20px;
+    justify-content:Center;
+    align-items:center;
+    font-size:16px;
+    background-color:rgb(224, 224, 255);
+
+}
+.btn:hover{
+    background-color:blue;
+    color:white;
+    transform: scale(1.03);
+    cursor:pointer;
+    
+
+}
+.card{
+    background-color:white;
+    width:250px;
+    margin-top:50px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);    
+
+
+}
+.image{
+    overflow:hidden;
+    display:relative;
+    position: relative;
+    width:250px;
+    height:250px;
+
+    
+
+
+}
+.photo{
+     width:250px;
+    height:250px;   
+     display:block;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    transition: transform 0,3s ease-in-out;
+
+    
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+    padding: 20px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.card-content{
+    padding:10px;
+    
+}
+
+.sub{
+    margin-top:10px;
+    color:gray;
+    font-size:15px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.photo:hover{
+    cursor:pointer;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+
+}
+.image:hover{
+        transform: scale(1.03);
+
+}
+.tag{
+    background-color:white;
+    color:black;
+    font-size:15px;
+    position: absolute;
+    top:12px;
+    right:12px;
+    font-weight:bold;
+    border-radius:999px;
+    padding:5px;
+}
